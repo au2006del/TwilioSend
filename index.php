@@ -15,10 +15,10 @@ $client = new Client($account_sid, $auth_token);
 
 
 $client->messages->create(
-'+15512295673',
+'+19173490168',
 array(
-// 'To' => "+15512295673",
+// 'To' => "+19173490168",
 'From' => "+16283003802",
-'Body' => "Hello Anshul Upadhyay CS643 Fall 2017"
+'Body' => "Hello from Anshul Upadhyay CS643 Fall 2017"
 ));
 ?>
